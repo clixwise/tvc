@@ -16,7 +16,7 @@
     }
   },
   "subtitle": {
-    "text": "Par période et cumulatif",
+    "text": "Par année et cumulatif",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"

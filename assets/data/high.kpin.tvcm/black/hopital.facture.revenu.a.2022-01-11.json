@@ -11,7 +11,7 @@
     }
   },
   "subtitle": {
-    "text": "Par période et cumulatif",
+    "text": "Par mois et cumulatif",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
