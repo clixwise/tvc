@@ -9,7 +9,7 @@
     }
   },
   "title": {
-    "text": "Hôpital : Revenu & Coût (K$)",
+    "text": "Hôpital : Revenus & Impayés ($)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
@@ -33,13 +33,12 @@
   "yAxis": [
     {
       "labels": {
-        "format": "{value} K$",
         "style": {
           "color": "orange"
         }
       },
       "title": {
-        "text": "R&C mensuel",
+        "text": "R&I mensuel",
         "style": {
           "color": "orange"
         }
@@ -49,13 +48,12 @@
     },
     {
       "title": {
-        "text": "R&C annuel",
+        "text": "R&I annuel",
         "style": {
           "color": "orange"
         }
       },
       "labels": {
-        "format": "{value} K$",
         "style": {
           "color": "orange"
         }
@@ -84,7 +82,7 @@
   "colors": [
     "blue",
     "brown",
-    "green",
+    "blue",
     "red"
   ],
   "series": [
@@ -108,7 +106,7 @@
         1749
       ],
       "type": "column",
-      "name": "M Coût"
+      "name": "M Impayé"
     },
     {
       "data": [
@@ -132,7 +130,7 @@
       ],
       "type": "line",
       "yAxis": 1,
-      "name": "A Coût"
+      "name": "A Impayé"
     }
   ]
 }
