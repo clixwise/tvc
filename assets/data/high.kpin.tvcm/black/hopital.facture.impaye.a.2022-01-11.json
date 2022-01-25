@@ -1,17 +1,15 @@
 {
   "chart": {
     "backgroundColor": "#252525",
-    "type": "column"
+    "zoomType": "xy"
   },
-  "title": {
-    "text": "Facturation : Revenus+Impayés ($)",
-    "style": {
-      "color": "orange",
-      "fontWeight": "lighter"
+  "plotOptions": {
+    "column": {
+      "borderWidth": 0
     }
   },
-  "subtitle": {
-    "text": "Par période et cumulatif",
+  "title": {
+    "text": "Hôpital : Revenu & Coût (K$)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
@@ -35,18 +33,19 @@
       "style": {
         "color": "orange"
       }
-    }
+    },
+    "crosshair": true
   },
   "yAxis": [
     {
-      "min": 0,
-      "title": {
-        "text": "Par période ($)",
+      "labels": {
+        "format": "{value} K$",
         "style": {
           "color": "orange"
         }
       },
-      "labels": {
+      "title": {
+        "text": "R&C mensuel",
         "style": {
           "color": "orange"
         }
@@ -55,14 +54,14 @@
       "gridLineColor": "gray"
     },
     {
-      "min": 0,
       "title": {
-        "text": "Cumulatif ($)",
+        "text": "R&C annuel",
         "style": {
           "color": "orange"
         }
       },
       "labels": {
+        "format": "{value} K$",
         "style": {
           "color": "orange"
         }
@@ -72,26 +71,47 @@
       "opposite": true
     }
   ],
+  "tooltip": {
+    "shared": true
+  },
   "legend": {
-    "reversed": true,
+    "layout": "vertical",
+    "align": "left",
+    "x": 80,
+    "verticalAlign": "top",
+    "y": 30,
+    "floating": true,
+    "backgroundColor": "rgba(255,255,255,0.25)",
     "itemStyle": {
       "color": "orange",
       "fontWeight": "lighter"
     }
   },
-  "plotOptions": {
-    "series": {
-      "stacking": "normal"
-    },
-    "column": {
-      "borderWidth": 0
-    }
-  },
+  "colors": [
+    "blue",
+    "brown",
+    "green",
+    "red"
+  ],
   "series": [
     {
-      "showInLegend": true,
+      "data": [
+        23653,
+        416746,
+        602055,
+        447658,
+        12139,
+        58073,
+        72370,
+        61840,
+        83646,
+        54331,
+        18296
+      ],
       "type": "column",
-      "yAxis": 0,
+      "name": "M Revenu"
+    },
+    {
       "data": [
         2000,
         46716,
@@ -105,11 +125,28 @@
         6232,
         1749
       ],
-      "color": "brown",
-      "name": "Impayé sur période"
+      "type": "column",
+      "name": "M Coût"
     },
     {
-      "showInLegend": true,
+      "data": [
+        23653,
+        440399,
+        1042454,
+        1490112,
+        1502251,
+        1560324,
+        1632694,
+        1694534,
+        1778180,
+        1832511,
+        1850807
+      ],
+      "type": "line",
+      "yAxis": 1,
+      "name": "A Revenu"
+    },
+    {
       "data": [
         2000,
         48716,
@@ -125,8 +162,7 @@
       ],
       "type": "line",
       "yAxis": 1,
-      "color": "red",
-      "name": "Impayé cumulatif"
+      "name": "A Coût"
     }
   ]
 }
