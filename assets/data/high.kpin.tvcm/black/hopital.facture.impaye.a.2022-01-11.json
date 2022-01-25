@@ -38,7 +38,7 @@
         }
       },
       "title": {
-        "text": "R&I mensuel",
+        "text": "R&I annuel",
         "style": {
           "color": "orange"
         }
@@ -48,7 +48,7 @@
     },
     {
       "title": {
-        "text": "R&I annuel",
+        "text": "R&I cumulé",
         "style": {
           "color": "orange"
         }
@@ -95,7 +95,7 @@
         18296
       ],
       "type": "column",
-      "name": "M Revenu"
+      "name": "Revenu annuel"
     },
     {
       "data": [
@@ -106,7 +106,7 @@
         1749
       ],
       "type": "column",
-      "name": "M Impayé"
+      "name": "Impayé annuel"
     },
     {
       "data": [
@@ -118,7 +118,7 @@
       ],
       "type": "line",
       "yAxis": 1,
-      "name": "A Revenu"
+      "name": "Revenu cumulé"
     },
     {
       "data": [
@@ -130,7 +130,7 @@
       ],
       "type": "line",
       "yAxis": 1,
-      "name": "A Impayé"
+      "name": "Impayé cumulé"
     }
   ]
 }
