@@ -15,6 +15,13 @@
       "fontWeight": "lighter"
     }
   },
+  "subtitle": {
+    "text": "Par période et cumulatif",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
   "xAxis": {
     "categories": [
       "18",
