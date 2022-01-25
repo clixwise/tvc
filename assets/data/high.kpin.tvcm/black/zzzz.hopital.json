@@ -1,4 +1,22 @@
 [{ 
+    "iden": "hopital.facture.revenu.a.2022-01-11",
+    "type": "googItem",
+    "area": "acct",
+    "tpic": "revenue",
+    "indi": "trailing 12 months",
+    "vari": "variant 1",
+    "chrt": "Pie"
+},
+{
+    "iden": "hopital.facture.revenu.b.2022-01-11",
+    "type": "googItem",
+    "area": "acct",
+    "tpic": "revenue",
+    "indi": "trailing 12 months",
+    "vari": "variant 1",
+    "chrt": "Pie"
+},
+{ 
     "iden": "hopital.facture.impaye.a.2022-01-11",
     "type": "googItem",
     "area": "acct",
