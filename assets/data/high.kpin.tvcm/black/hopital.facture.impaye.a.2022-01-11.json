@@ -78,7 +78,7 @@
     "align": "left",
     "x": 80,
     "verticalAlign": "top",
-    "y": 30,
+    "y": 60,
     "floating": true,
     "backgroundColor": "rgba(255,255,255,0.25)",
     "itemStyle": {
