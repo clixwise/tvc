@@ -1,0 +1,83 @@
+
+  {
+    "chart": {
+        "backgroundColor": "#252525",
+        "type": "area"
+    },
+    "title": {
+        "text": "Clients débiteurs : Balance âgée",
+        "style": {
+            "color": "orange",
+            "fontWeight": "lighter"
+        }
+      },
+      "subtitle": {
+        "text": "Montants impayés par ancienneté (<30j, <60j, etc.)",
+        "style": {
+            "color": "orange",
+            "fontWeight": "lighter"
+        }
+    },
+    "xAxis": {
+        "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "labels": {
+          "style": {
+             "color": "orange"
+          }
+        }
+    },
+    "yAxis": {
+        "title": {
+          "text": "Montants dus ($)",
+          "style": {
+            "color": "orange"
+         }
+        },
+        "labels": {
+             "style": {
+                "color": "orange"
+             }
+        },
+        "lineColor": "white",
+        "gridLineColor": "gray"
+      },
+      "legend": {
+        "itemStyle": {
+          "color": "orange",
+          "fontWeight": "lighter"
+        } 
+    },
+    "tooltip": {
+       "split": true,
+        "valueSuffix": " millions"
+    },
+    "plotOptions": {
+        "area": {
+            "stacking": "normal",
+            "lineColor": "#666666",
+            "lineWidth": 1,
+            "marker": {
+                "lineWidth": 1,
+                "lineColor": "#666666"
+            }
+        }
+    },
+    "series": [
+        {
+          "data": [12, 8, 43, 35, 20],
+          "name": "<30j"
+        },
+        {
+          "data": [9, 4, 30, 25, 10],
+          "name": "<60j"
+        },
+      
+        {
+          "data": [91, 14, 80, 35, 50],
+          "name": "<90j"
+        },
+        {
+          "data": [122, 82, 83, 75, 60],
+          "name": ">90j"
+        }]
+}

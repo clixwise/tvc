@@ -1,0 +1,100 @@
+{
+    "chart": {
+        "backgroundColor": "#252525",
+        "zoomType": "xy"
+    },
+    "plotOptions": {
+        "column": {
+          "borderWidth": 0
+      }
+    },
+    "title": {
+        "text": "Hôpital : Revenu & Coût (K$)",
+        "style": {
+            "color": "orange",
+            "fontWeight": "lighter"
+        }
+    },
+    "xAxis": [{
+        "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "labels": {
+            "style": {
+               "color": "orange"
+            }
+        },
+        "crosshair": true
+    }],
+    "yAxis": [{
+        "labels": {
+            "format": "{value} K$",
+            "style": {
+                "color": "orange"
+            }
+        },
+        "title": { 
+            "text": "R&C mensuel",
+            "style": {
+                "color": "orange"
+            }
+        },
+        "lineColor": "white",
+        "gridLineColor": "gray"
+    },
+    {
+        "title": {
+            "text": "R&C annuel",
+            "style": {
+                "color": "orange"
+            }
+        },
+        "labels": {
+            "format": "{value} K$",
+            "style": {
+                "color": "orange"
+            }
+        },
+        "lineColor": "white",
+        "gridLineColor": "gray",
+        "opposite": true
+    }],
+    "tooltip": {
+        "shared": true
+    },
+    "legend": {
+        "layout": "vertical",
+        "align": "left",
+        "x": 80,
+        "verticalAlign": "top",
+        "y": 30,
+        "floating": true,
+        "backgroundColor": "rgba(255,255,255,0.25)",
+        "itemStyle": {
+            "color": "orange",
+            "fontWeight": "lighter"
+        }
+    },
+    "colors" : ["blue", "brown", "green", "red"],
+    "series": [{
+        "data": [50, 20, 30, 40, 30, 20, 10, 30, 30, 40, 10, 20],
+        "type": "column",
+        "name": "M Revenu"
+    },
+    {
+        "data": [30, 10, 20, 50, 20, 30, 20, 20, 10, 20, 5, 15],
+        "type": "column",
+        "name": "M Coût"
+    },
+    {
+      "data": [50, 70, 100, 140, 170, 190, 200, 230, 260, 300, 310, 330],
+      "type": "line",
+      "yAxis": 1,
+      "name": "A Revenu"
+    },
+    {
+      "data": [30, 40, 60, 110, 130, 160, 180, 200, 210, 230, 235, 250],
+      "type": "line",
+      "yAxis": 1,
+      "name": "A Coût"
+    }
+    ]
+}

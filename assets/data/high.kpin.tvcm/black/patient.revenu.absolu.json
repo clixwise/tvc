@@ -1,0 +1,67 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "column"
+  },
+  "title": {
+    "text": "Patient : Revenu ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": ["Aou", "Sep", "Oct", "Nov", "Dec"],
+    "labels": {
+      "style": {
+         "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+     "text": "Revenu ($)",
+     "style": {
+      "color": "orange"
+     }
+  },
+  "labels": {
+    "style": {
+       "color": "orange"
+    }
+  },
+  "lineColor": "white",
+  "gridLineColor": "gray"
+  },
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "colors" : ["red", "orange", "green"],
+  "series": [{
+    "type": "column",
+    "name": "STD",
+    "data": [80, 15, 30, 60, 10]
+  }, 
+  {
+    "type": "column",
+    "name": "MUT",
+    "data": [20, 40, 30, 20, 20]
+  }, {
+    "type": "column",
+    "name": "VIP",
+    "data": [50, 65, 40, 60, 70]
+  }]
+}

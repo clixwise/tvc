@@ -1,0 +1,104 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "column"
+  },
+  "title": {
+    "text": "Facturation : Impayés ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Montants impayés par période et cumulatifs",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": ["Aou", "Sep", "Oct", "Nov", "Dec"],
+    "labels": {
+      "style": {
+         "color": "orange"
+      }
+    }
+  },
+  "yAxis": [{
+    "min": 0,
+    "title": {
+     "text": "Par période ($)",
+     "style": {
+      "color": "orange"
+     }
+    },
+    "labels": {
+         "style": {
+            "color": "orange"
+         }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  {
+    "min": 0,
+    "title": {
+     "text": "Cumulatif ($)",
+     "style": {
+      "color": "orange"
+     }
+    },
+    "labels": {
+         "style": {
+            "color": "orange"
+         }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray",
+    "opposite": true
+  }
+  ],
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    } 
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "buttons": {
+      "customButton": {
+        "x": -25,
+        "y": 0,
+        "symbol": "circle",
+        "onclick": "function(e){ console.log(11); }"
+        }
+      }
+  },
+  "series": [{
+    "showInLegend": true,
+    "type": "column",
+    "yAxis": 0,
+    "data": [30, 15, 30, 60, 10],
+    "color" : "brown",
+    "name": "Impayé sur période"
+  },
+  {
+    "showInLegend": true,
+    "data": [50, 70, 100, 140, 170],
+    "type": "line",
+    "yAxis": 1,
+    "color" : "red",
+    "name": "Impayé cumulatif"
+  }
+  ]
+}

@@ -1,0 +1,72 @@
+    {
+    "chart": {
+      "backgroundColor": "#252525",
+      "type": "column"
+    },
+    "title": {
+      "text": "Personel : Nombre",
+      "style": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      }
+    },
+    "xAxis": {
+      "categories": ["Aou", "Sep", "Oct", "Nov", "Dec"],
+      "labels": {
+        "style": {
+           "color": "orange"
+        }
+      }
+    },
+    "yAxis": {
+      "min": 0,
+      "title": {
+       "text": "Nombre",
+       "style": {
+        "color": "orange"
+       }
+    },
+    "labels": {
+      "style": {
+         "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+    },
+    "legend": {
+      "reversed": true,
+      "itemStyle": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      }
+    },
+    "plotOptions": {
+      "series": {
+        "stacking": "normal"
+      },
+      "column": {
+        "borderWidth": 0
+      }
+    },
+    "colors" : ["grey", "brown", "yellow", "blue"],
+    "series": [{
+      "type": "column",
+      "name": "Administratif",
+      "data": [40, 20, 30, 60, 15]
+    },
+    {
+      "type": "column",
+      "name": "Logistique",
+      "data": [10, 10, 10, 10, 5]
+    }, 
+    {
+      "type": "column",
+      "name": "Infirmiere",
+      "data": [10, 5, 20, 10, 30]
+    }, {
+      "type": "column",
+      "name": "Medecin",
+      "data": [30, 50, 30, 10, 30]
+    }]
+  }

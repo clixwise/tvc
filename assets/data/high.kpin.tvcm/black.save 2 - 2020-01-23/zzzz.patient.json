@@ -1,0 +1,38 @@
+[
+    {
+        "iden": "patient.revenu.absolu",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "patient.revenu.relatif",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "patient.decompte.absolu",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "patient.decompte.relatif",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    }
+]

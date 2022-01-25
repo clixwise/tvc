@@ -1,0 +1,121 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "area"
+  },
+  "title": {
+    "text": "Facturation : Impayés ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Montants impayés par tranche (100-200 $, etc.)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "18-..",
+      "19-..",
+      "19-12",
+      "20-01",
+      "20-02",
+      "20-05"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "text": "Montants dus ($)",
+      "style": {
+        "color": "orange"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  "legend": {
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "series": [
+    {
+      "data": [
+        50,
+        7951,
+        1787,
+        2248,
+        1600,
+        5
+      ],
+      "name": "<100 $"
+    },
+    {
+      "data": [
+        0,
+        11282,
+        1005,
+        859,
+        875,
+        0
+      ],
+      "name": "100-500 $"
+    },
+    {
+      "data": [
+        0,
+        8869,
+        500,
+        665,
+        2690,
+        0
+      ],
+      "name": "500-1000 $"
+    },
+    {
+      "data": [
+        0,
+        15810,
+        4040,
+        4676,
+        0,
+        0
+      ],
+      "name": "1000-5000 $"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "> 5000 $"
+    }
+  ]
+}

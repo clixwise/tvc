@@ -1,0 +1,223 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "column"
+  },
+  "title": {
+    "text": "Service : Revenu (%)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "19-01",
+      "19-02",
+      "19-03",
+      "19-04",
+      "19-05",
+      "19-06",
+      "19-07",
+      "19-08",
+      "19-09",
+      "19-10",
+      "19-11",
+      "19-12"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "max": 100,
+    "title": {
+      "text": "Revenu (%)",
+      "style": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "colors": [
+    "red",
+    "orange",
+    "green",
+    "blue",
+    "yellow",
+    "brown",
+    "pink",
+    "lemon"
+  ],
+  "series": [
+    {
+      "type": "column",
+      "name": "Autre",
+      "data": [
+        96,
+        78,
+        85,
+        82,
+        80,
+        46,
+        70,
+        72,
+        31,
+        64,
+        52,
+        51
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Consu",
+      "data": [
+        0,
+        2,
+        2,
+        4,
+        5,
+        7,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Hospi",
+      "data": [
+        0,
+        4,
+        1,
+        0,
+        0,
+        11,
+        8,
+        9,
+        42,
+        5,
+        24,
+        18
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Plaie",
+      "data": [
+        3,
+        4,
+        4,
+        4,
+        3,
+        9,
+        5,
+        3,
+        4,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Labor",
+      "data": [
+        1,
+        6,
+        3,
+        3,
+        8,
+        17,
+        7,
+        4,
+        8,
+        10,
+        8,
+        11
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Image",
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        4,
+        6,
+        7,
+        6,
+        7
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Ordon",
+      "data": [
+        0,
+        6,
+        5,
+        7,
+        5,
+        8,
+        2,
+        3,
+        2,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Ambul",
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        2,
+        1,
+        1
+      ]
+    }
+  ]
+}

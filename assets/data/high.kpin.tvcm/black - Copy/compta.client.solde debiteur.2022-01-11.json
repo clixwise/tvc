@@ -1,0 +1,128 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "area"
+  },
+  "title": {
+    "text": "Clients débiteurs : Solde comptable",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Montants par tranche (< 100$, 100-500$, etc.)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "2018-12-31",
+      "2019-12-31",
+      "2020-01-31",
+      "2020-02-29",
+      "2020-03-31",
+      "2020-04-30"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "text": "Montants dus ($)",
+      "style": {
+        "color": "orange"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  "legend": {
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "tooltip": {
+    "split": true,
+    "valueSuffix": " millions"
+  },
+  "plotOptions": {
+    "area": {
+      "stacking": "normal",
+      "lineColor": "#666666",
+      "lineWidth": 1,
+      "marker": {
+        "lineWidth": 1,
+        "lineColor": "#666666"
+      }
+    }
+  },
+  "series": [
+    {
+      "data": [
+        5000,
+        536081,
+        637712,
+        700547,
+        700547,
+        700547
+      ],
+      "name": "< 100$"
+    },
+    {
+      "data": [
+        0,
+        1081902,
+        1265588,
+        1345998,
+        1345998,
+        1345998
+      ],
+      "name": "100-500 $"
+    },
+    {
+      "data": [
+        0,
+        372000,
+        583700,
+        763620,
+        763620,
+        763620
+      ],
+      "name": "500-1000 $"
+    },
+    {
+      "data": [
+        0,
+        2477761,
+        2555188,
+        2566503,
+        2566503,
+        2566503
+      ],
+      "name": "1000-5000 $"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "> 5000 $"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "column"
+  },
+  "title": {
+    "text": "Facturation : Revenus+Impayés ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Par période et cumulatif",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "00-..",
+      "19-..",
+      "20-..",
+      "21-..",
+      "21-07",
+      "21-08",
+      "21-09",
+      "21-10",
+      "21-11",
+      "21-12",
+      "22-01"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": "Par période ($)",
+        "style": {
+          "color": "orange"
+        }
+      },
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray"
+    },
+    {
+      "min": 0,
+      "title": {
+        "text": "Cumulatif ($)",
+        "style": {
+          "color": "orange"
+        }
+      },
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray",
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "series": [
+    {
+      "showInLegend": true,
+      "type": "column",
+      "yAxis": 0,
+      "data": [
+        2000,
+        46716,
+        56396,
+        61074,
+        2024,
+        10152,
+        6792,
+        4151,
+        9604,
+        6232,
+        1749
+      ],
+      "color": "brown",
+      "name": "Impayé sur période"
+    },
+    {
+      "showInLegend": true,
+      "data": [
+        2000,
+        48716,
+        105112,
+        166186,
+        168210,
+        178362,
+        185154,
+        189305,
+        198909,
+        205141,
+        206890
+      ],
+      "type": "line",
+      "yAxis": 1,
+      "color": "red",
+      "name": "Impayé cumulatif"
+    }
+  ]
+}

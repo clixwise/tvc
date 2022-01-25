@@ -1,0 +1,53 @@
+  {
+    "chart": {
+      "backgroundColor": "#252525",
+      "type": "line"
+    },
+    "title": {
+      "text": "Hôpital : Revenu & Coût ($)",
+      "style": {
+          "color": "orange",
+          "fontWeight": "lighter"
+      }
+    },
+    "xAxis": {
+      "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "labels": {
+        "style": {
+           "color": "orange"
+        }
+      }
+    },
+    "yAxis": {
+      "title": {
+        "text": "Total mensuel ($)",
+        "style": {
+          "color": "orange"
+       }
+      },
+      "labels": {
+           "style": {
+              "color": "orange"
+           }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray"
+    },
+    "legend": {
+      "itemStyle": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      } 
+    },
+    "colors" : ["green", "red"],
+    "series": [{
+      "data": [12, 8, 43, 35, 20],
+      "type": "line",
+      "name": "Revenu"
+    },
+    {
+      "data": [9, 4, 30, 25, 10],
+      "type": "line",
+      "name": "Coût"
+    }]
+  } 

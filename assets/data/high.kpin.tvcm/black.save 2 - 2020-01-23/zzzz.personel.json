@@ -1,0 +1,29 @@
+[
+    {
+        "iden": "service.personel.absolu",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "service.personel.relatif",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "service.personel.decompte",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    }
+]

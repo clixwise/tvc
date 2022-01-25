@@ -1,0 +1,161 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "area"
+  },
+  "title": {
+    "text": "Revenus 12 derniers mois",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Montants par service",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "2020-04-30",
+      "2020-03-31",
+      "2020-02-29",
+      "2020-01-31",
+      "2019-12-31",
+      "2018-12-31"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "text": "Montants ($)",
+      "style": {
+        "color": "orange"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  "legend": {
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "tooltip": {
+    "split": true,
+    "valueSuffix": " millions"
+  },
+  "plotOptions": {
+    "area": {
+      "stacking": "normal",
+      "lineColor": "#666666",
+      "lineWidth": 1,
+      "marker": {
+        "lineWidth": 1,
+        "lineColor": "#666666"
+      }
+    }
+  },
+  "series": [
+    {
+      "data": [
+        700547,
+        700547,
+        700547,
+        637712,
+        536081,
+        5000
+      ],
+      "name": "Autre"
+    },
+    {
+      "data": [
+        1345998,
+        1345998,
+        1345998,
+        1265588,
+        1081902,
+        0
+      ],
+      "name": "Consu"
+    },
+    {
+      "data": [
+        763620,
+        763620,
+        763620,
+        583700,
+        372000,
+        0
+      ],
+      "name": "Hospi"
+    },
+    {
+      "data": [
+        2566503,
+        2566503,
+        2566503,
+        2555188,
+        2477761,
+        0
+      ],
+      "name": "Plaie"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Labor"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Image"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Ordon"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Ambul"
+    }
+  ]
+}

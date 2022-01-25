@@ -1,0 +1,30 @@
+[
+    {
+        "iden": "compta.client.impaye.nombre",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "compta.client.impaye.montant",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "compta.client.balance.montant",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    }
+
+]

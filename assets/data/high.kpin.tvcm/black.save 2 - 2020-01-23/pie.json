@@ -1,0 +1,66 @@
+{
+    "chart": {
+        "backgroundColor": "#252525",
+        "plotBackgroundColor": null,
+        "plotBorderWidth": null,
+        "plotShadow": false,
+        "type": "pie"
+    },
+    "title": {
+        "text": "Browser market shares in January, 2018",
+        "style": {
+            "color": "orange",
+            "fontWeight": "lighter"
+          }
+    },
+    "subtitle": {
+        "text": "Montants impayés par tranche (100-200 $, etc.)",
+        "style": {
+          "color": "orange",
+          "fontWeight": "lighter"
+        }
+      },
+    "tooltip": {
+        "pointFormat": "{series.name}: <b>{point.percentage:.1f}%</b>"
+    },
+    "accessibility": {
+        "point": {
+            "valueSuffix": "%"
+        }
+    },
+    "plotOptions": {
+        "pie": {
+            "allowPointSelect": true, 
+            "cursor": "pointer",
+            "dataLabels": {
+                "enabled": true,
+                "connectorWidth": 0,
+                "format": "<b>{point.name}</b>: {point.percentage:.1f} %",
+                "style": {
+                    "color": "orange",
+                    "fontWeight": "lighter",
+                    "textOutline": "transparent"
+                }
+            },
+            "shadow": false,
+            "borderWidth": 0 
+        }
+    },
+    
+    "series": [{
+        "name": "Brands",
+        "colorByPoint": true,
+        "data": [{
+            "name": "Chrome",
+            "y": 61.41,
+            "sliced": true,
+            "selected": true
+        }, {
+            "name": "Internet Explorer",
+            "y": 11.84
+        }, {
+            "name": "Firefox",
+            "y": 10.85
+        }]
+    }]
+}

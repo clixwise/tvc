@@ -1,0 +1,215 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "area"
+  },
+  "title": {
+    "text": "Revenus 12 derniers mois",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Montants par service",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "19-01",
+      "19-02",
+      "19-03",
+      "19-04",
+      "19-05",
+      "19-06",
+      "19-07",
+      "19-08",
+      "19-09",
+      "19-10",
+      "19-11",
+      "19-12"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "text": "Montants ($)",
+      "style": {
+        "color": "orange"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  "legend": {
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "tooltip": {
+    "split": true,
+    "valueSuffix": " millions"
+  },
+  "plotOptions": {
+    "area": {
+      "stacking": "normal",
+      "lineColor": "#666666",
+      "lineWidth": 1,
+      "marker": {
+        "lineWidth": 1,
+        "lineColor": "#666666"
+      }
+    }
+  },
+  "series": [
+    {
+      "data": [
+        2143,
+        16283,
+        32999,
+        29562,
+        34028,
+        8662,
+        41935,
+        38225,
+        12933,
+        18770,
+        24869,
+        23911
+      ],
+      "name": "Autre"
+    },
+    {
+      "data": [
+        0,
+        477,
+        871,
+        1434,
+        1994,
+        1308,
+        1573,
+        1570,
+        1615,
+        1181,
+        1764,
+        2142
+      ],
+      "name": "Consu"
+    },
+    {
+      "data": [
+        0,
+        928,
+        518,
+        12,
+        0,
+        1968,
+        5048,
+        5067,
+        17882,
+        1356,
+        11879,
+        8406
+      ],
+      "name": "Hospi"
+    },
+    {
+      "data": [
+        58,
+        795,
+        1482,
+        1463,
+        1155,
+        1692,
+        2698,
+        1653,
+        1510,
+        1212,
+        1155,
+        1486
+      ],
+      "name": "Plaie"
+    },
+    {
+      "data": [
+        22,
+        1254,
+        1157,
+        950,
+        3324,
+        3093,
+        3922,
+        2165,
+        3538,
+        3062,
+        4017,
+        5144
+      ],
+      "name": "Labor"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        250,
+        2635,
+        2190,
+        2380,
+        2010,
+        3035,
+        3425
+      ],
+      "name": "Image"
+    },
+    {
+      "data": [
+        0,
+        1183,
+        1824,
+        2482,
+        2148,
+        1569,
+        1113,
+        1623,
+        955,
+        1305,
+        1670,
+        1348
+      ],
+      "name": "Ordon"
+    },
+    {
+      "data": [
+        0,
+        26,
+        48,
+        59,
+        137,
+        129,
+        797,
+        969,
+        1327,
+        642,
+        458,
+        576
+      ],
+      "name": "Ambul"
+    }
+  ]
+}

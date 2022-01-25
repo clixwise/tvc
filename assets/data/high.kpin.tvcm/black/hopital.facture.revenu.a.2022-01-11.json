@@ -1,0 +1,216 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "column"
+  },
+  "title": {
+    "text": "Facturation : Revenus ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Par période et cumulatif",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "18-05",
+      "18-12",
+      "19-01",
+      "19-02",
+      "19-03",
+      "19-04",
+      "19-05",
+      "19-06",
+      "19-07",
+      "19-08",
+      "19-09",
+      "19-10",
+      "19-11",
+      "19-12",
+      "20-01",
+      "20-02",
+      "20-03",
+      "20-04",
+      "20-05",
+      "20-06",
+      "20-07",
+      "20-08",
+      "20-09",
+      "20-10",
+      "20-11",
+      "20-12",
+      "21-01",
+      "21-02",
+      "21-03",
+      "21-04",
+      "21-05",
+      "21-06",
+      "21-07",
+      "21-08",
+      "21-09",
+      "21-10",
+      "21-11",
+      "21-12",
+      "22-01"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": "Par période ($)",
+        "style": {
+          "color": "orange"
+        }
+      },
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray"
+    },
+    {
+      "min": 0,
+      "title": {
+        "text": "Cumulatif ($)",
+        "style": {
+          "color": "orange"
+        }
+      },
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray",
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "series": [
+    {
+      "showInLegend": true,
+      "type": "column",
+      "yAxis": 0,
+      "data": [
+        544,
+        5983,
+        20276,
+        20493,
+        35949,
+        35578,
+        37379,
+        18269,
+        53457,
+        48979,
+        40413,
+        28665,
+        48456,
+        45958,
+        75711,
+        78546,
+        40833,
+        45466,
+        35053,
+        47521,
+        59395,
+        36064,
+        34081,
+        47518,
+        38553,
+        63313,
+        40258,
+        32589,
+        61261,
+        84962,
+        102796,
+        59334,
+        78597,
+        58073,
+        72370,
+        61840,
+        83646,
+        54331,
+        18296
+      ],
+      "color": "brown",
+      "name": "Revenu sur période"
+    },
+    {
+      "showInLegend": true,
+      "data": [
+        544,
+        6527,
+        26803,
+        47296,
+        83245,
+        118823,
+        156202,
+        174471,
+        227928,
+        276907,
+        317320,
+        345985,
+        394441,
+        440399,
+        516110,
+        594656,
+        635489,
+        680955,
+        716008,
+        763529,
+        822924,
+        858988,
+        893069,
+        940587,
+        979140,
+        1042453,
+        1082711,
+        1115300,
+        1176561,
+        1261523,
+        1364319,
+        1423653,
+        1502250,
+        1560323,
+        1632693,
+        1694533,
+        1778179,
+        1832510,
+        1850806
+      ],
+      "type": "line",
+      "yAxis": 1,
+      "color": "red",
+      "name": "Revenu cumulatif"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "area"
+  },
+  "title": {
+    "text": "Facturation : Impayés ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Par montant résiduel (100-200 $, etc.)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "00-..",
+      "19-..",
+      "20-..",
+      "21-..",
+      "21-07",
+      "21-08",
+      "21-09",
+      "21-10",
+      "21-11",
+      "21-12",
+      "22-01"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "text": "Montants résiduels ($)",
+      "style": {
+        "color": "orange"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  "legend": {
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "series": [
+    {
+      "data": [
+        110,
+        9804,
+        28347,
+        39354,
+        39799,
+        42092,
+        43960,
+        45148,
+        46348,
+        49153,
+        49847
+      ],
+      "name": "<100 $"
+    },
+    {
+      "data": [
+        346,
+        12907,
+        27203,
+        42841,
+        43612,
+        46251,
+        50686,
+        52656,
+        58320,
+        60246,
+        60755
+      ],
+      "name": "100-500 $"
+    },
+    {
+      "data": [
+        1544,
+        8713,
+        16091,
+        26838,
+        27648,
+        28673,
+        29173,
+        29173,
+        30923,
+        31433,
+        31983
+      ],
+      "name": "500-1000 $"
+    },
+    {
+      "data": [
+        0,
+        17350,
+        33651,
+        57393,
+        57393,
+        61593,
+        61593,
+        62593,
+        63593,
+        64593,
+        64593
+      ],
+      "name": "1000-5000 $"
+    },
+    {
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "> 5000 $"
+    }
+  ]
+}

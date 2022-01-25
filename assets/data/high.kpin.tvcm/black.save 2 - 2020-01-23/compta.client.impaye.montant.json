@@ -1,0 +1,89 @@
+  {
+    "chart": {
+      "backgroundColor": "#252525",
+      "type": "line"
+    },
+    "title": {
+      "text": "Clients débiteurs : Impayés",
+      "style": {
+          "color": "orange",
+          "fontWeight": "lighter"
+      }
+    },
+    "subtitle": {
+      "text": "Montants impayés par tranche (100-200 $, etc.)",
+      "style": {
+          "color": "orange",
+          "fontWeight": "lighter"
+      }
+    },
+    "xAxis": {
+      "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "labels": {
+        "style": {
+           "color": "orange"
+        }
+      }
+    },
+    "yAxis": {
+      "title": {
+        "text": "Montants dus ($)",
+        "style": {
+          "color": "orange"
+       }
+      },
+      "labels": {
+           "style": {
+              "color": "orange"
+           }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray"
+    },
+    "legend": {
+      "itemStyle": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      } 
+    },
+    "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+    },
+    "series": [
+    {
+      "data": [12, 8, 43, 35, 20],
+      "type": "line",
+      "name": "100-200 $"
+    },
+    {
+      "data": [9, 4, 30, 25, 10],
+      "type": "line",
+      "name": "200-500 $"
+    },
+  
+    {
+      "data": [91, 14, 80, 35, 50],
+      "type": "line",
+      "name": "500-1000 $"
+    },
+    {
+      "data": [122, 82, 83, 75, 60],
+      "type": "line",
+      "name": "1000-2000 $"
+    },
+    {
+      "data": [90, 40, 37, 45, 20],
+      "type": "line",
+      "name": "2000-5000 $"
+    }, 
+    {
+      "data": [51, 44, 60, 25, 33],
+      "type": "line",
+      "name": "5000-10000 $"
+    }]
+  } 

@@ -1,0 +1,56 @@
+[{
+    "iden": "hopital.revenu+cout.M+A",
+    "type": "googItem",
+    "area": "acct",
+    "tpic": "revenue",
+    "indi": "trailing 12 months",
+    "vari": "variant 1",
+    "chrt": "Pie"
+    },  
+    {
+        "iden": "hopital.revenu+cout",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+
+    {
+        "iden": "service.revenu.absolu",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "service.revenu.relatif",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "hopital.facture.impaye.a",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    },
+    {
+        "iden": "hopital.facture.impaye.b",
+        "type": "googItem",
+        "area": "acct",
+        "tpic": "revenue",
+        "indi": "trailing 12 months",
+        "vari": "variant 1",
+        "chrt": "Pie"
+    }
+]

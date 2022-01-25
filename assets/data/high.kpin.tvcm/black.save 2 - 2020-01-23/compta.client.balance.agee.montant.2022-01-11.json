@@ -1,0 +1,117 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "area"
+  },
+  "title": {
+    "text": "Clients débiteurs : Balance âgée",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Montants impayés par ancienneté (<30j, <60j, etc.)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "2018-12",
+      "2019-12",
+      "2020-01",
+      "2020-02",
+      "2020-03",
+      "2020-04"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": {
+    "title": {
+      "text": "Montants dus ($)",
+      "style": {
+        "color": "orange"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    },
+    "lineColor": "white",
+    "gridLineColor": "gray"
+  },
+  "legend": {
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "tooltip": {
+    "split": true,
+    "valueSuffix": " millions"
+  },
+  "plotOptions": {
+    "area": {
+      "stacking": "normal",
+      "lineColor": "#666666",
+      "lineWidth": 1,
+      "marker": {
+        "lineWidth": 1,
+        "lineColor": "#666666"
+      }
+    }
+  },
+  "series": [
+    {
+      "data": [
+        50,
+        7167,
+        7592,
+        5025,
+        0,
+        0
+      ],
+      "name": "<30j"
+    },
+    {
+      "data": [
+        0,
+        4512,
+        6624,
+        6130,
+        4903,
+        0
+      ],
+      "name": "<60j"
+    },
+    {
+      "data": [
+        0,
+        1634,
+        4202,
+        6556,
+        6204,
+        4903
+      ],
+      "name": "<90j"
+    },
+    {
+      "data": [
+        0,
+        31365,
+        32004,
+        36055,
+        42660,
+        48864
+      ],
+      "name": ">90j"
+    }
+  ]
+}
