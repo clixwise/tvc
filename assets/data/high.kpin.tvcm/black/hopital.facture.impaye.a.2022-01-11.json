@@ -9,7 +9,7 @@
     }
   },
   "title": {
-    "text": "Facturation : Revenus & Impayés ($)",
+    "text": "Facturation : Revenus+Impayés ($)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
