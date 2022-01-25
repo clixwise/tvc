@@ -9,7 +9,7 @@
     }
   },
   "title": {
-    "text": "Hôpital : Revenus & Impayés ($)",
+    "text": "Facturation : Revenus & Impayés ($)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
