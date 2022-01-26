@@ -79,7 +79,7 @@
       "type": "column",
       "name": "Autre",
       "data": [
-        25,
+        28,
         53,
         69,
         65,
@@ -115,7 +115,7 @@
       "type": "column",
       "name": "Hospi",
       "data": [
-        52,
+        58,
         29,
         16,
         18,
@@ -151,7 +151,7 @@
       "type": "column",
       "name": "Labor",
       "data": [
-        9,
+        3,
         6,
         5,
         5,
@@ -187,7 +187,7 @@
       "type": "column",
       "name": "Ordon",
       "data": [
-        5,
+        2,
         4,
         3,
         3,
