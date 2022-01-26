@@ -1,114 +1,71 @@
 {
   "chart": {
     "backgroundColor": "#252525",
-    "type": "column"
+    "plotBackgroundColor": null,
+    "plotBorderWidth": null,
+    "plotShadow": false,
+    "type": "pie"
   },
   "title": {
-    "text": "Patients : Revenus ($)",
+    "text": "Browser market shares in January, 2018",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
     }
   },
   "subtitle": {
-    "text": "Par categorie et cumulatif",
+    "text": "Montants impayés par tranche (100-200 $, etc.)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
     }
   },
-  "xAxis": {
-    "categories": [
-      "standard",
-      "",
-      "c",
-      "vip",
-      "pcliniq"
-    ],
-    "labels": {
-      "style": {
-        "color": "orange"
-      }
-    }
+  "tooltip": {
+    "pointFormat": "{series.name}: <b>{point.percentage:.1f}%</b>"
   },
-  "yAxis": [
-    {
-      "min": 0,
-      "title": {
-        "text": "Par categorie ($)",
-        "style": {
-          "color": "orange"
-        }
-      },
-      "labels": {
-        "style": {
-          "color": "orange"
-        }
-      },
-      "lineColor": "white",
-      "gridLineColor": "gray"
-    },
-    {
-      "min": 0,
-      "title": {
-        "text": "Cumulatif ($)",
-        "style": {
-          "color": "orange"
-        }
-      },
-      "labels": {
-        "style": {
-          "color": "orange"
-        }
-      },
-      "lineColor": "white",
-      "gridLineColor": "gray",
-      "opposite": true
-    }
-  ],
-  "legend": {
-    "reversed": true,
-    "itemStyle": {
-      "color": "orange",
-      "fontWeight": "lighter"
+  "accessibility": {
+    "point": {
+      "valueSuffix": "%"
     }
   },
   "plotOptions": {
-    "series": {
-      "stacking": "normal"
-    },
-    "column": {
+    "pie": {
+      "allowPointSelect": true,
+      "cursor": "pointer",
+      "dataLabels": {
+        "enabled": true,
+        "connectorWidth": 0,
+        "format": "<b>{point.name}</b>: {point.percentage:.1f} %",
+        "style": {
+          "color": "orange",
+          "fontWeight": "lighter",
+          "textOutline": "transparent"
+        }
+      },
+      "shadow": false,
       "borderWidth": 0
     }
   },
   "series": [
     {
-      "showInLegend": true,
-      "type": "column",
-      "yAxis": 0,
+      "name": "Brands",
+      "colorByPoint": true,
       "data": [
-        1754543,
-        36477,
-        33598,
-        26029,
-        160
-      ],
-      "color": "brown",
-      "name": "Patient de la catégorie"
-    },
-    {
-      "showInLegend": true,
-      "data": [
-        1754543,
-        1791020,
-        1824618,
-        1850647,
-        1850807
-      ],
-      "type": "line",
-      "yAxis": 1,
-      "color": "red",
-      "name": "Patient cumulatif"
+        {
+          "name": "Chrome",
+          "y": 61.41,
+          "sliced": true,
+          "selected": true
+        },
+        {
+          "name": "Internet Explorer",
+          "y": 11.84
+        },
+        {
+          "name": "Firefox",
+          "y": 10.85
+        }
+      ]
     }
   ]
 }
