@@ -1,0 +1,109 @@
+{
+    "chart": {
+      "backgroundColor": "#252525",
+      "type": "column"
+    },
+    "title": {
+      "text": "Patients : Revenus ($)",
+      "style": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      }
+    },
+    "subtitle": {
+      "text": "Par categorie et cumulatif",
+      "style": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      }
+    },
+    "xAxis": {
+      "categories": [
+        "00-..",
+        "19-..",
+        "20-.."
+      ],
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      }
+    },
+    "yAxis": [
+      {
+        "min": 0,
+        "title": {
+          "text": "Par categorie ($)",
+          "style": {
+            "color": "orange"
+          }
+        },
+        "labels": {
+          "style": {
+            "color": "orange"
+          }
+        },
+        "lineColor": "white",
+        "gridLineColor": "gray"
+      },
+      {
+        "min": 0,
+        "title": {
+          "text": "Cumulatif ($)",
+          "style": {
+            "color": "orange"
+          }
+        },
+        "labels": {
+          "style": {
+            "color": "orange"
+          }
+        },
+        "lineColor": "white",
+        "gridLineColor": "gray",
+        "opposite": true
+      }
+    ],
+    "legend": {
+      "reversed": true,
+      "itemStyle": {
+        "color": "orange",
+        "fontWeight": "lighter"
+      }
+    },
+    "plotOptions": {
+      "series": {
+        "stacking": "normal"
+      },
+      "column": {
+        "borderWidth": 0
+      }
+    },
+    "series": [
+      {
+        "showInLegend": true,
+        "type": "column",
+        "yAxis": 0,
+        "data": [
+          401,
+          50834,
+          13587
+        ],
+        "color": "brown",
+        "name": "Patient de la catégorie"
+      },
+      {
+        "showInLegend": true,
+        "data": [
+          401,
+          51235,
+          64822
+        ],
+        "type": "line",
+        "yAxis": 1,
+        "color": "red",
+        "name": "Patient cumulatif"
+      }
+    ]
+  }
+  
