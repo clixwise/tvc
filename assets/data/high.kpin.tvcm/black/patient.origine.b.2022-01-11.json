@@ -1,0 +1,177 @@
+{
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "column"
+  },
+  "title": {
+    "text": "Patients : Revenus ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Par commune et cumulatif",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "Ngaliema",
+      "Ngiri-ngiri",
+      "Mont - Ngafula",
+      "Kalamu",
+      "Lemba",
+      "Limete",
+      "Bumbu",
+      "Bandalungua",
+      "Kinshasa",
+      "Ndjili",
+      "Kintambo",
+      "Kasa-vubu",
+      "Gombe",
+      "Selembao",
+      "Autres",
+      "Matete",
+      "Kimbanseke",
+      "Masina",
+      "Ligwala",
+      "",
+      "Nsele",
+      "Barumbu",
+      "Makala",
+      "Ngaba",
+      "Kisenso",
+      "Maluku"
+    ],
+    "labels": {
+      "style": {
+        "color": "orange"
+      }
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": "Par commune ($)",
+        "style": {
+          "color": "orange"
+        }
+      },
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray"
+    },
+    {
+      "min": 0,
+      "title": {
+        "text": "Cumulatif ($)",
+        "style": {
+          "color": "orange"
+        }
+      },
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray",
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "series": [
+    {
+      "showInLegend": true,
+      "type": "column",
+      "yAxis": 0,
+      "data": [
+        263324,
+        183462,
+        129929,
+        123138,
+        110740,
+        105864,
+        95174,
+        79124,
+        62949,
+        60840,
+        59414,
+        56979,
+        56821,
+        55891,
+        55884,
+        52682,
+        50929,
+        48937,
+        40854,
+        36477,
+        36006,
+        23901,
+        22535,
+        18259,
+        16957,
+        3736
+      ],
+      "color": "brown",
+      "name": "Patient sur commune"
+    },
+    {
+      "showInLegend": true,
+      "data": [
+        263324,
+        446786,
+        576715,
+        699853,
+        810593,
+        916457,
+        1011631,
+        1090755,
+        1153704,
+        1214544,
+        1273958,
+        1330937,
+        1387758,
+        1443649,
+        1499533,
+        1552215,
+        1603144,
+        1652081,
+        1692935,
+        1729412,
+        1765418,
+        1789319,
+        1811854,
+        1830113,
+        1847070,
+        1850806
+      ],
+      "type": "line",
+      "yAxis": 1,
+      "color": "red",
+      "name": "Patient cumulatif"
+    }
+  ]
+}
