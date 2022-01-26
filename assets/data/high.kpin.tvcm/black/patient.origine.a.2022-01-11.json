@@ -4,14 +4,14 @@
     "type": "column"
   },
   "title": {
-    "text": "Facturation : Revenus ($)",
+    "text": "Patients : Origine (#)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
     }
   },
   "subtitle": {
-    "text": "Par mois et cumulatif",
+    "text": "Par commune et cumulatif",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
@@ -55,7 +55,7 @@
     {
       "min": 0,
       "title": {
-        "text": "Par période ($)",
+        "text": "Par commune (#)",
         "style": {
           "color": "orange"
         }
@@ -134,7 +134,7 @@
         18
       ],
       "color": "brown",
-      "name": "Revenu sur période"
+      "name": "Patient sur commune"
     },
     {
       "showInLegend": true,
@@ -168,7 +168,7 @@
       "type": "line",
       "yAxis": 1,
       "color": "red",
-      "name": "Revenu cumulatif"
+      "name": "Patient cumulatif"
     }
   ]
 }
