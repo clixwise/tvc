@@ -4,7 +4,7 @@
     "type": "column"
   },
   "title": {
-    "text": "Patients : Origine (#)",
+    "text": "Patients : Nombre (#)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
