@@ -1,109 +1,114 @@
 {
-    "chart": {
-      "backgroundColor": "#252525",
-      "type": "column"
-    },
-    "title": {
-      "text": "Patients : Revenus ($)",
+  "chart": {
+    "backgroundColor": "#252525",
+    "type": "column"
+  },
+  "title": {
+    "text": "Patients : Revenus ($)",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "subtitle": {
+    "text": "Par categorie et cumulatif",
+    "style": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "xAxis": {
+    "categories": [
+      "standard",
+      "",
+      "c",
+      "vip",
+      "pcliniq"
+    ],
+    "labels": {
       "style": {
-        "color": "orange",
-        "fontWeight": "lighter"
+        "color": "orange"
       }
-    },
-    "subtitle": {
-      "text": "Par categorie et cumulatif",
-      "style": {
-        "color": "orange",
-        "fontWeight": "lighter"
-      }
-    },
-    "xAxis": {
-      "categories": [
-        "00-..",
-        "19-..",
-        "20-.."
-      ],
+    }
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": "Par categorie ($)",
+        "style": {
+          "color": "orange"
+        }
+      },
       "labels": {
         "style": {
           "color": "orange"
         }
-      }
-    },
-    "yAxis": [
-      {
-        "min": 0,
-        "title": {
-          "text": "Par categorie ($)",
-          "style": {
-            "color": "orange"
-          }
-        },
-        "labels": {
-          "style": {
-            "color": "orange"
-          }
-        },
-        "lineColor": "white",
-        "gridLineColor": "gray"
       },
-      {
-        "min": 0,
-        "title": {
-          "text": "Cumulatif ($)",
-          "style": {
-            "color": "orange"
-          }
-        },
-        "labels": {
-          "style": {
-            "color": "orange"
-          }
-        },
-        "lineColor": "white",
-        "gridLineColor": "gray",
-        "opposite": true
-      }
-    ],
-    "legend": {
-      "reversed": true,
-      "itemStyle": {
-        "color": "orange",
-        "fontWeight": "lighter"
-      }
+      "lineColor": "white",
+      "gridLineColor": "gray"
     },
-    "plotOptions": {
-      "series": {
-        "stacking": "normal"
+    {
+      "min": 0,
+      "title": {
+        "text": "Cumulatif ($)",
+        "style": {
+          "color": "orange"
+        }
       },
-      "column": {
-        "borderWidth": 0
-      }
+      "labels": {
+        "style": {
+          "color": "orange"
+        }
+      },
+      "lineColor": "white",
+      "gridLineColor": "gray",
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "normal"
     },
-    "series": [
-      {
-        "showInLegend": true,
-        "type": "column",
-        "yAxis": 0,
-        "data": [
-          401,
-          50834,
-          13587
-        ],
-        "color": "brown",
-        "name": "Patient de la catégorie"
-      },
-      {
-        "showInLegend": true,
-        "data": [
-          401,
-          51235,
-          64822
-        ],
-        "type": "line",
-        "yAxis": 1,
-        "color": "red",
-        "name": "Patient cumulatif"
-      }
-    ]
-  }
-  
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "series": [
+    {
+      "showInLegend": true,
+      "type": "column",
+      "yAxis": 0,
+      "data": [
+        1754543,
+        36477,
+        33598,
+        26029,
+        160
+      ],
+      "color": "brown",
+      "name": "Patient de la catégorie"
+    },
+    {
+      "showInLegend": true,
+      "data": [
+        1754543,
+        1791020,
+        1824618,
+        1850647,
+        1850807
+      ],
+      "type": "line",
+      "yAxis": 1,
+      "color": "red",
+      "name": "Patient cumulatif"
+    }
+  ]
+}
