@@ -71,7 +71,7 @@
     {
       "min": 0,
       "title": {
-        "text": "Cumulatif ($)",
+        "text": "Cumulatif (#)",
         "style": {
           "color": "orange"
         }
