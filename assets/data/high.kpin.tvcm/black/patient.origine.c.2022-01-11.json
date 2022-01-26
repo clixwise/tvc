@@ -48,18 +48,18 @@
   },
   "series": [
     {
-      "name": "Brands",
+      "name": "Categories",
       "colorByPoint": true,
       "data": [
         {
-          "name": "Chrome",
-          "y": 61.41,
+          "name": "standard",
+          "y": 1754543,
           "sliced": true,
           "selected": true
         },
         {
-          "name": "Internet Explorer",
-          "y": 11.84
+          "name": "autre",
+          "y": 36477
         },
         {
           "name": "Firefox",
