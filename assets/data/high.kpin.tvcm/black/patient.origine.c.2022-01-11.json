@@ -7,14 +7,14 @@
     "type": "pie"
   },
   "title": {
-    "text": "Browser market shares in January, 2018",
+    "text": "Patients : Revenus ($)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
     }
   },
   "subtitle": {
-    "text": "Montants impayés par tranche (100-200 $, etc.)",
+    "text": "Montants par categorie",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
