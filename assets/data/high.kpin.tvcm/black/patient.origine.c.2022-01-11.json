@@ -42,6 +42,7 @@
           "textOutline": "transparent"
         }
       },
+      "showInLegend": true,
       "shadow": false,
       "borderWidth": 0
     }
