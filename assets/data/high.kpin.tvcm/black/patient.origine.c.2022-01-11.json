@@ -7,14 +7,14 @@
     "type": "pie"
   },
   "title": {
-    "text": "Patients : Revenus ($)",
+    "text": "Patients : Revenus (%)",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
     }
   },
   "subtitle": {
-    "text": "Montants par categorie",
+    "text": "Par categorie",
     "style": {
       "color": "orange",
       "fontWeight": "lighter"
