@@ -34,7 +34,7 @@
       "cursor": "pointer",
       "dataLabels": {
         "enabled": true,
-        "connectorWidth": 0,
+        "connectorWidth": 1,
         "format": "<b>{point.name}</b>: {point.percentage:.1f} %",
         "style": {
           "color": "orange",
