@@ -28,6 +28,13 @@
       "valueSuffix": "%"
     }
   },
+  "legend": {
+    "reversed": true,
+    "itemStyle": {
+      "color": "orange",
+      "fontWeight": "lighter"
+    }
+  },
   "plotOptions": {
     "pie": {
       "allowPointSelect": true,
