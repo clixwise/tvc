@@ -79,7 +79,7 @@
       "type": "column",
       "name": "Autre",
       "data": [
-        28,
+        13,
         53,
         69,
         65,
@@ -97,7 +97,7 @@
       "type": "column",
       "name": "Consu",
       "data": [
-        4,
+        0,
         4,
         5,
         4,
@@ -115,7 +115,7 @@
       "type": "column",
       "name": "Hospi",
       "data": [
-        58,
+        87,
         29,
         16,
         18,
@@ -133,7 +133,7 @@
       "type": "column",
       "name": "Plaie",
       "data": [
-        2,
+        0,
         2,
         1,
         2,
@@ -151,7 +151,7 @@
       "type": "column",
       "name": "Labor",
       "data": [
-        3,
+        0,
         6,
         5,
         5,
@@ -169,7 +169,7 @@
       "type": "column",
       "name": "Image",
       "data": [
-        3,
+        0,
         3,
         2,
         2,
@@ -187,7 +187,7 @@
       "type": "column",
       "name": "Ordon",
       "data": [
-        2,
+        0,
         4,
         3,
         3,
