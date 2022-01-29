@@ -44,7 +44,7 @@
     "chrt": "Pie"
 },
 {
-    "iden": "compta.client.solde debiteur.2022-01-11",
+    "iden": "compta.client.solde.debiteur.2022-01-11",
     "type": "googItem",
     "area": "acct",
     "tpic": "revenue",
