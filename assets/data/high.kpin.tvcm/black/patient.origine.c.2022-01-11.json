@@ -60,24 +60,24 @@
       "colorByPoint": true,
       "data": [
         {
-          "name": "standard",
-          "y": 1754543.0
+          "y": 1754543.0,
+          "name": "standard"
         },
         {
-          "name": "autre",
-          "y": 36477.0
+          "y": 36477.0,
+          "name": "autre"
         },
         {
-          "name": "c",
-          "y": 33598.0
+          "y": 33598.0,
+          "name": "c"
         },
         {
-          "name": "vip",
-          "y": 26029.0
+          "y": 26029.0,
+          "name": "vip"
         },
         {
-          "name": "pcliniq",
-          "y": 160.0
+          "y": 160.0,
+          "name": "pcliniq"
         }
       ]
     }
